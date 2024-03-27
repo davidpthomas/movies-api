@@ -4,7 +4,7 @@ build:
     dockerfile: Dockerfile
 
 dependencies:
-  - https://github.com/okteto/movies-multi-repo
+  - https://github.com/davidpthomas/movies-multi-repo
 
 deploy:
   - name: Deploy API
