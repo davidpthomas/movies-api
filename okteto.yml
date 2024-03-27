@@ -4,7 +4,10 @@ build:
     dockerfile: Dockerfile
 
 dependencies:
-  - https://github.com/davidpthomas/movies-multi-repo
+  multi-repo:
+    repository: https://github.com/davidpthomas/movies-multi-repo
+    manifest: okteto.yaml
+    branch: test-broken-dep
 
 deploy:
   - name: Deploy API
