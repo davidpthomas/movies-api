@@ -6,7 +6,7 @@ build:
 dependencies:
   multi-repo:
     repository: https://github.com/davidpthomas/movies-multi-repo
-    manifest: okteto.yaml
+    manifest: okteto.yml
     branch: test-broken-dep
 
 deploy:
